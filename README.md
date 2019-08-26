@@ -1,6 +1,20 @@
-# Movie App 2019
+# Movie App
 
-Use React JS (2019 Update!) <p>
-Use create-react-app to start project (no use set webpack...babel....etc....) <p>
-Use gh-pages to deploy project
+## 概要
+　映画、テレビ番組データの表示
 
+### データ取得元
+* [The Movie DataBase(以下, TMDB)](https://developers.themoviedb.org/3/search/search-movies) ☜クリック
+  * データ内容
+    * ストリー
+    * ポスター
+    * サムネイル
+    * 評価点数
+
+#### 準備事項
+* APIキー発行
+  * TMDB API 使用のためのキー
+    * 上記リンクから会員登録・ログイン
+    * 必要な情報入力後キーを取得
+
+<hr/>
