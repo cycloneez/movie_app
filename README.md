@@ -4,7 +4,7 @@
 　映画、テレビ番組データの表示
 
 ### データ取得元
-* [The Movie DataBase(以下, TMDB)](https://developers.themoviedb.org/3/search/search-movies) ☜クリック
+* [The Movie DataBase(以下, TMDB)](https://developers.themoviedb.org/3) ☜クリック
   * データ内容
     * ストリー
     * ポスター
