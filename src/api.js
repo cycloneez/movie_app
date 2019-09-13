@@ -16,12 +16,11 @@ export const moviesApi = {
     upcoming: () => api.get("movie/upcoming"),
     popular: () => api.get("movie/popular"),
     movieDetail: id =>
-        // api.get(`movie/${id}`, {
-        //     params: {
-        //         append_to_response: "videos"
-        //     }
-        // }),
-        axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}&language=${language}`),
+        api.get(`movie/${id}`, {
+            params: {
+                append_to_response: "videos"
+            }
+        }),
     search: term =>
         api.get("search/movie", {
             params: {
@@ -35,12 +34,11 @@ export const tvApi = {
     popular: () => api.get("tv/popular"),
     airingToday: () => api.get("tv/airing_today"),
     showDetail: id =>
-        // api.get(`tv/${id}`, {
-        //     params: {
-        //         append_to_response: "videos"
-        //     }
-        // }),
-        axios.get(`https://api.themoviedb.org/3/tv/${id}?api_key=${apiKey}&language=${language}`),
+        api.get(`tv/${id}`, {
+            params: {
+                append_to_response: "videos"
+            }
+        }),
     search: term =>
         api.get("search/tv", {
             params: {
