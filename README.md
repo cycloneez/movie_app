@@ -31,7 +31,12 @@
 - Styled Compnent
 - Axios
 - React Router
+- create-react-app
 
 ## Web サイト移動
 
-- [https://cycloneez.github.io/movie_app/](https://cycloneez.github.io/movie_app/) ☜ クリック
+- [http://13.113.230.179/movie_app](http://13.113.230.179/movie_app) ☜ クリック
+  - AWS EC2
+  - Amazon Linux AMI
+  - Apache Web サーバ構築
+  - Webアプリケーションデプロイ
