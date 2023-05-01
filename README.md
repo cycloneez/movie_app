@@ -35,8 +35,8 @@
 
 ## Web サイト移動
 
-- [http://13.114.74.136/movie_app](http://13.114.74.136/movie_app) ☜ クリック
-  - AWS EC2
-  - Amazon Linux AMI
-  - Apache Web サーバ構築
-  - Webアプリケーションデプロイ
+- ~~[http://13.114.74.136/movie_app](http://13.114.74.136/movie_app) ☜ クリック~~
+  - ~~AWS EC2~~
+  - ~~Amazon Linux AMI~~
+  - ~~Apache Web サーバ構築~~
+  - ~~Web アプリケーションデプロイ~~
